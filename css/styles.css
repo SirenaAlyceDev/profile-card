@@ -33,79 +33,89 @@ Dark gray: hsl(0, 0%, 59%)
 /* */
 
 body {
-    background-color: hsl(185, 75%, 39%);   
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-size: cover, cover;
-    background-repeat: no-repeat;
-    background-position:top left, bottom right;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
+.card-row-main {
+    height: 100vh;
+}
 
 .card {
-    border-radius: 10px;
-    background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 5px -2px #6a6f81; 
+box-shadow: 0px 15px 35px 5px #2d3248;
 }
 
-
 .card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .profile-image {
-    border-radius: 50%;
-    border: 10px solid white;
+  border-radius: 50%;
+  border: 10px solid white;
 }
 
 .profile-image-row {
-    margin-top: -50px;
+  margin-top: -50px;
 }
 
-.card-footer{
-    padding: 30px;
-    border-top: 1px solid lightgray;
-    text-align: center;
+.card-footer {
+  padding: 30px;
+  border-top: 1px solid lightgray;
+  text-align: center;
 }
-
 
 .name {
-    font-family: 'Kumbh Sans', sans-serif;
-    text-align: right;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: right;
 }
 
 .nameage p {
-    display: inline;
+  display: inline;
 }
 
 .nameage {
-    text-align: center;
+  text-align: center;
 }
 
-.stat, .name {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-} 
+.stat,
+.name {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
 
 .age {
-    color:hsl(0, 0%, 59%);
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 100;
+  color: hsl(0, 0%, 59%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 100;
 }
 
-.stat-text, .location {
-    color:hsl(0, 0%, 59%);
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
+.stat-text,
+.location {
+  color: hsl(0, 0%, 59%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .location {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 100;
-    text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
