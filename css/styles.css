@@ -1,0 +1,111 @@
+/* ## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%) #19a2ae
+Very dark desaturated blue: hsl(229, 23%, 23%) #2d3248
+Dark grayish blue: hsl(227, 10%, 46%) #6a6f81
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+/* font-family: 'Kumbh Sans', sans-serif; */
+/* Code to check grid layout */
+/* .col, .card{
+    border: solid 1px blue;
+    margin:2px;
+  }
+  .row {
+      border: solid 1px red;
+      margin:2px;
+  }  */
+/* End Code to check grid layout */
+/* */
+
+body {
+    background-color: hsl(185, 75%, 39%);   
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+}
+
+
+.card {
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.profile-image-row {
+    margin-top: -50px;
+}
+
+.card-footer{
+    padding: 30px;
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+
+
+.name {
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: right;
+}
+
+.nameage p {
+    display: inline;
+}
+
+.nameage {
+    text-align: center;
+}
+
+.stat, .name {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+.age {
+    color:hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 100;
+}
+
+.stat-text, .location {
+    color:hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.location {
+    text-align: center;
+}
+
+footer {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
